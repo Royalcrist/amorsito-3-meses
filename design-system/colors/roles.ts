@@ -42,18 +42,16 @@ const roles = {
   onBackground,
 
   // Primary
-  ...primary,
-  onPrimary: onLight,
-  onPrimaryHover: {
-    _dark: onLight,
-    default: onLight,
-  },
+  // ...primary,
+  primary: getColor("pink", 78),
+  onPrimary: getColor("pink", 17),
+  primaryHover: getColor("pink", 68),
 
   // Secondary
-  secondary: "transparent",
-  secondaryHover,
-  onSecondary: onBackground,
-  onSecondaryHover: onBackground,
+  secondary: "white",
+  secondaryHover: getColor("pink", 95),
+  onSecondary: getColor("pink", 17),
+  onSecondaryHover: getColor("pink", 17),
 
   // Tertiary
   tertiary: "transparent",

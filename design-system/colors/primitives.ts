@@ -7,6 +7,7 @@ type CreateHslBaseColorFuction = (
 
 export interface ColorPrimitives {
   red: ColorFunction;
+  pink: ColorFunction;
   yellow: ColorFunction;
   blue: ColorFunction;
   green: ColorFunction;
@@ -38,6 +39,7 @@ const primitives: ColorPrimitives = {
   purple: createHslBaseColor(270, 90),
   orange: createHslBaseColor(35, 90),
   gray: createHslBaseColor(0, 0),
+  pink: createHslBaseColor(343, 100),
 };
 
 export const getColor: GetColorFunction = (color, lightness, alpha = 1) =>
