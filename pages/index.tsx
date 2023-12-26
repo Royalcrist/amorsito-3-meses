@@ -73,10 +73,10 @@ const MainPage = () => {
             <Heading width="100%">Felices 3 meses!</Heading>
             <VStack spacing={8}>
               <Text maxW="50ch">
-                Hoy se cumplen 3 meses desde que nos conocimos, y no puedo estar
-                más feliz de haberme encontrado con una persona tan maravillosa
-                como tú. Te amo muchísimo y espero que podamos seguir
-                compartiendo muchos momentos juntos. Te amo amorcito! 🥰
+                Hoy se cumplen 3 meses desde que somos oficiales, y no puedo
+                estar más feliz de haberme encontrado con una persona tan
+                maravillosa como tú. Te amo muchísimo y espero que podamos
+                seguir compartiendo muchos momentos juntos. Te amo amorcito! 🥰
               </Text>
               <HStack width="100%">
                 <Button cursor="pointer" onClick={handleYayClick}>
